@@ -1293,8 +1293,8 @@
 		new/obj/item/sparkler(src)
 
 /obj/item/storage/box/gum
-	name = "bubblegum packet"
-	desc = "The packaging is entirely in japanese, apparently. You can't make out a single word of it."
+	name = "gumy turbo"
+	desc = "Nie wiem nic o takiej gumie."
 	icon_state = "bubblegum_generic"
 	w_class = WEIGHT_CLASS_TINY
 	illustration = null

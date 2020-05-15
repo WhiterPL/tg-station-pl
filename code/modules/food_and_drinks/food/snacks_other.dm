@@ -556,8 +556,8 @@
 		qdel(src)
 
 /obj/item/reagent_containers/food/snacks/chewable/bubblegum
-	name = "bubblegum"
-	desc = "A rubbery strip of gum. Not exactly filling, but it keeps you busy."
+	name = "guma turbo"
+	desc = "Przysmak dzieci."
 	icon_state = "bubblegum"
 	item_state = "bubblegum"
 	color = "#E48AB5" // craftable custom gums someday?
