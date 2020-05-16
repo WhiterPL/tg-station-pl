@@ -1953,6 +1953,20 @@
 					)
 	crate_name = "grilling fuel kit crate"
 
+/datum/supply_pack/organic/kremowka
+	name = "Kremowki"
+	desc = "Skrzynia pelna kremowek prosto z piekarni w Wadowicach."
+	cost = 2500
+	crate_type = /obj/structure/closet/crate
+	contains = list(
+		/obj/item/reagent_containers/food/snacks/pie/kremowka,
+		/obj/item/reagent_containers/food/snacks/pie/kremowka,
+		/obj/item/reagent_containers/food/snacks/pie/kremowka,
+		/obj/item/reagent_containers/food/snacks/pie/kremowka,
+		/obj/item/reagent_containers/food/snacks/pie/kremowka
+		)
+	crate_name = "skrzynia kremowek"
+
 //////////////////////////////////////////////////////////////////////////////
 ////////////////////////////// Livestock /////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////

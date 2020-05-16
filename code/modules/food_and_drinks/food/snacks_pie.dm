@@ -301,3 +301,12 @@
 	tastes = list("nuts" = 1, "pie" = 1)
 	foodtype = GRAIN
 	value = FOOD_JUNK
+
+/obj/item/reagent_containers/food/snacks/pie/kremowka
+	name = "kremowka"
+	desc = "Wadowicki specjal"
+	icon_state = "kremowka"
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2)
+	tastes = list("pie" = 1, "cream" = 1)
+	foodtype = GRAIN | SUGAR
+	value = FOOD_RARE
