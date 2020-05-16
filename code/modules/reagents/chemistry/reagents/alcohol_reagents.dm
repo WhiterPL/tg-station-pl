@@ -2239,3 +2239,14 @@ All effects don't start immediately, but rather get worse over time; the rate is
 /datum/reagent/consumable/ethanol/pruno/on_mob_life(mob/living/carbon/M)
 	M.adjust_disgust(5)
 	..()
+
+/datum/reagent/consumable/ethanol/amarena
+	name = "Amarena"
+	description = "Dobre wino, niska cena, dobre wino, amarena."
+	boozepwr = 20
+	color = "#800101"
+	quality = DRINK_NICE
+	taste_description = "cherry"
+	glass_icon_state = "amarenaglass"
+	glass_name = "kieliszek amareny"
+	glass_desc = "Dobre wino, niska cena, dobre wino, amarena."

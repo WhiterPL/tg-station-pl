@@ -224,6 +224,10 @@
 	results = list(/datum/reagent/consumable/ethanol/pina_colada = 5)
 	required_reagents = list(/datum/reagent/consumable/ethanol/creme_de_coconut = 1, /datum/reagent/consumable/pineapplejuice = 3, /datum/reagent/consumable/ethanol/rum = 1, /datum/reagent/consumable/limejuice = 1)
 
+/datum/chemical_reaction/amarena
+	results = list(/datum/reagent/consumable/ethanol/amarena = 5)
+	required_reagents = list(/datum/reagent/consumable/ethanol = 1, /datum/reagent/water = 2, /datum/reagent/consumable/cherryjelly = 2)
+
 ////DRINKS THAT REQUIRED IMPROVED SPRITES BELOW:: -Agouri/////
 
 /datum/chemical_reaction/sbiten

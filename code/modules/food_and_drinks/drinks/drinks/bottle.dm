@@ -482,6 +482,14 @@
 	icon_state = "moonshinebottle"
 	list_reagents = list(/datum/reagent/consumable/ethanol/moonshine = 100)
 
+/obj/item/reagent_containers/food/drinks/bottle/amarena
+	name = "Amarena"
+	desc = "Szery szery lejcie, amarenę wlejcie."
+	icon_state = "amarenabottle"
+	volume = 70
+	isGlass = FALSE
+	list_reagents = list(/datum/reagent/consumable/ethanol/amarena = 70)
+
 ////////////////////////// MOLOTOV ///////////////////////
 /obj/item/reagent_containers/food/drinks/bottle/molotov
 	name = "molotov cocktail"
