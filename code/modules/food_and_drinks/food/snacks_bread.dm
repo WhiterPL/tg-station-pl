@@ -315,3 +315,14 @@
 /obj/item/reagent_containers/food/snacks/butterdog/ComponentInitialize()
 	. = ..()
 	AddComponent(/datum/component/slippery, 80)
+
+/obj/item/reagent_containers/food/snacks/jajochleb
+	name = "jajochleb"
+	desc = "Chleb w jajku."
+	icon = 'icons/obj/food/food.dmi'
+	icon_state = "jajochleb"
+	bitesize = 2
+	list_reagents = list(/datum/reagent/consumable/nutriment = 3)
+	tastes = list("bread", "egg")
+	foodtype = GRAIN | BREAKFAST
+	value = FOOD_FAST
