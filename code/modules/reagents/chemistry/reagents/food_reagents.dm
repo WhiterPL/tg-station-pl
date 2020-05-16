@@ -796,3 +796,18 @@
 	color = "#78280A" // rgb: 120 40, 10
 	taste_mult = 2.5 //sugar's 1.5, capsacin's 1.5, so a good middle ground.
 	taste_description = "smokey sweetness"
+
+/datum/reagent/consumable/kremowczan
+	name = "Kremowczan"
+	description = "Wyciag z kremowki."
+	color = "#fff033"
+	nutriment_factor = 1 * REAGENTS_METABOLISM
+	quality = FOOD_AMAZING
+	taste_mult = 5
+	overdose_threshold = 10
+
+/datum/reagent/consumable/kremowczan/overdose_process(mob/living/M)
+	if(prob(30))
+		M.say(pick_list_replacements(PAPAJ_FILE, "papaj"), forced = /datum/reagent/consumable/kremowczan)
+	..()
+	return

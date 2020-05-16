@@ -306,7 +306,7 @@
 	name = "kremowka"
 	desc = "Wadowicki specjal"
 	icon_state = "kremowka"
-	bonus_reagents = list(/datum/reagent/consumable/nutriment = 2)
+	list_reagents = list(/datum/reagent/consumable/kremowczan = 5, /datum/reagent/consumable/nutriment = 2)
 	tastes = list("pie" = 1, "cream" = 1)
 	foodtype = GRAIN | SUGAR
 	value = FOOD_RARE

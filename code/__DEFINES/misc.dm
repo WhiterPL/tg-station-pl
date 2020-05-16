@@ -403,6 +403,7 @@ GLOBAL_LIST_INIT(pda_styles, sortList(list(MONO, VT, ORBITRON, SHARE)))
 #define LOCATIONS_FILE "locations.json"
 #define WANTED_FILE "wanted_message.json"
 #define VISTA_FILE "steve.json"
+#define PAPAJ_FILE "papaj.json"
 
 //Fullscreen overlay resolution in tiles.
 #define FULLSCREEN_OVERLAY_RESOLUTION_X 15
