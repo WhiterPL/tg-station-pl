@@ -629,6 +629,7 @@ CIGARETTE PACKETS ARE IN FANCY.DM
 		attack_verb = list("burnt", "singed")
 		set_light(1)
 		START_PROCESSING(SSobj, src)
+		playsound(src, "sound/items/lighter_light.ogg", 15, TRUE)
 	else
 		hitsound = "swing_hit"
 		force = 0
