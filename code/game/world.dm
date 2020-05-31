@@ -302,11 +302,10 @@ GLOBAL_VAR(restart_counter)
 
 	s += "<b>[station_name()]</b>";
 	s += " ("
-	s += "<a href=\"https://discord.gg/Tzb4e6x\">" //Change this to wherever you want the hub to link to.
-	s += "Discord"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
+	s += "<a href=\"http://\">" //Change this to wherever you want the hub to link to.
+	s += "Default"  //Replace this with something else. Or ever better, delete it and uncomment the game version.
 	s += "</a>"
 	s += ")"
-	s += "<p> Serwer oparty na kodzie /tg/ z drobnymi zmianami i elementami polskiego folkloru. Przed wejĹ›ciem zapisz siÄ™ na whitelistÄ™ na naszym Discordzie </p>"
 
 	var/players = GLOB.clients.len
 
