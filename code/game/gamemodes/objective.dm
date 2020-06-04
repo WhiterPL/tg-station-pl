@@ -196,7 +196,7 @@ GLOBAL_LIST(admin_objective_list) //Prefilled admin assignable objective list
 /datum/objective/assassinate/internal/update_explanation_text()
 	..()
 	if(target && !target.current)
-		explanation_text = "Dokonaj zamachu na [target.name], [NIEZNANE]"
+		explanation_text = "Dokonaj zamachu na [target.name] (został już wyeliminowany)."
 
 /datum/objective/mutiny
 	name = "mutiny"
