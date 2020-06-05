@@ -1,43 +1,43 @@
 {
 	"suspicion": [
-		"@pick(add_name)i'm watching you...",
-		"@pick(add_name)i know what you're doing",
-		"@pick(add_name)what are you hiding?",
-		"I saw that"
+		"@pick(add_name)widzę cię...",
+		"@pick(add_name)widzę co robisz",
+		"@pick(add_name)co ukrywasz?",
+		"Widziałem to"
 	],
 
 	"conversation": [
-		"Yes",
-		"Yeah",
+		"Tak",
+		"Jasne",
 		"Yup",
-		"No",
+		"Nie",
 		"Nah",
-		"I doubt it",
+		"Wątpię",
 		"Uh...",
-		"Why?",
-		"But...",
-		"Hold on",
+		"Czemu?",
+		"Ale...",
+		"Czekaj",
 		"Hmm",
-		"Yeah, i know",
-		"Weird"
+		"Tak, wiem",
+		"Dziwne"
 	],
 
 	"greetings": [
 		"",
-		"Hey, ",
-		"Hi ",
-		"Hello ",
-		"Wait, ",
-		"It's "
+		"Hej, ",
+		"Cześć ",
+		"Witam ",
+		"Czekaj, ",
+		"To jest "
 	],
 
 	"getout": [
-		"@pick(add_name)get out",
-		"@pick(add_name)get out!",
-		"@pick(add_name)go away",
-		"@pick(add_name)fuck off",
-		"OUT!",
-		"@pick(add_name)out!"
+		"@pick(add_name)idź stąd",
+		"@pick(add_name)idź stąd!",
+		"@pick(add_name)idź sobie",
+		"@pick(add_name)wypierdalaj",
+		"WYPAD!",
+		"@pick(add_name)wynocha!"
 	],
 
 	"weird": [
@@ -51,9 +51,9 @@
 	],
 
 	"didyouhearthat": [
-		"Did you hear that?",
-		"Did you see that?",
-		"What was that?"
+		"Słyszałeś to?",
+		"Widziałeś to?",
+		"Co to było?"
 	],
 
 	"add_name": [
@@ -63,37 +63,37 @@
 	],
 
 	"doubt": [
-		"Why?",
-		"What?",
-		"Wait, what?",
-		"@pick(add_name)wait",
-		"@pick(add_name)hold on",
+		"Czemu?",
+		"Co?",
+		"Czekaj, co?",
+		"@pick(add_name)czekaj",
+		"@pick(add_name)poczekaj",
 		"Uh..."
 	],
 
 	"aggressive": [
-		"@pick(add_name)give me that!",
-		"@pick(add_name)stop it!",
-		"@pick(add_name)i'm going to kill you!",
-		"@pick(add_name)fuck you!"
+		"@pick(add_name)daj mi to!",
+		"@pick(add_name)przestań!",
+		"@pick(add_name)zabiję cię!",
+		"@pick(add_name)pierdol się!"
 	],
 
 	"help": [
-		"HELP",
-		"HELP",
-		"HELP",
-		"HELP",
-		"HELP",
-		"HELP ME",
-		"HELP HIM",
-		"HELP HER",
-		"HELP THEM",
-		"HELP US",
-		"HELP YOURSELF"
+		"POMOCY",
+		"POMOCY",
+		"POMOCY",
+		"POMOCY",
+		"POMOCY",
+		"POMÓŻCIE MI",
+		"POMÓŻCIE MU",
+		"POMÓŻCIE JEJ",
+		"POMÓŻCIE IM",
+		"POMÓŻCIE NAM",
+		"RATUJCIE SIĘ"
 	],
 
 	"escape": [
-		"@pick(add_name)RUN!!",
+		"@pick(add_name)UCIEKAJ!!",
 		"They're behind me!",
 		"It's here!",
 		"@pick(add_name)follow me!",
