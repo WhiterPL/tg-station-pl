@@ -11,4 +11,4 @@
 	anomaly_path = /obj/effect/anomaly/bluespace
 
 /datum/round_event/anomaly/anomaly_bluespace/announce(fake)
-	priority_announce("Wykryto niestabilną anomalię niebieskoprzestrzenną w zasięgu stacji. Lokalizacja: [impact_area.name].", "Anomalia")
+	priority_announce("Wykryto niestabilną anomalię błękitnoprzestrzenną w zasięgu stacji. Lokalizacja: [impact_area.name].", "Anomalia")
