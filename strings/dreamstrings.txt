@@ -1,32 +1,32 @@
-%A% %ADJECTIVE% znajomą twarz
-%A% %ADJECTIVE% członka załogi
-%A% %ADJECTIVE% oficera ochrony
-%A% %ADJECTIVE% doktora
-%A% %ADJECTIVE% inżyniera
-%A% %ADJECTIVE% górnika
-%A% %ADJECTIVE% gluta
-%A% %ADJECTIVE% kosmitę
-%A% %ADJECTIVE% zdrajcę
-%A% %ADJECTIVE% sojusznika
-%A% %ADJECTIVE% naukowca
-%A% %ADJECTIVE% małpę
-%A% %ADJECTIVE% ukochaną osobę
-%A% %ADJECTIVE% potwora
-the %ADJECTIVE% kapitana
-%A% %ADJECTIVE% kapelusz
-%A% %ADJECTIVE% kartę ID
-%A% %ADJECTIVE% butelkę
-%A% %ADJECTIVE% skrzynkę narzędziową
-%A% %ADJECTIVE% pistolet
+%ADJECTIVE% znajomą twarz
+%ADJECTIVE% członka załogi
+%ADJECTIVE% oficera ochrony
+%ADJECTIVE% doktora
+%ADJECTIVE% inżyniera
+%ADJECTIVE% górnika
+%ADJECTIVE% gluta
+%ADJECTIVE% kosmitę
+%ADJECTIVE% zdrajcę
+%ADJECTIVE% sojusznika
+%ADJECTIVE% naukowca
+%ADJECTIVE% małpę
+%ADJECTIVE% ukochaną osobę
+%ADJECTIVE% potwora
+%ADJECTIVE% kapitana
+%ADJECTIVE% kapelusz
+%ADJECTIVE% kartę ID
+%ADJECTIVE% butelkę
+%ADJECTIVE% skrzynkę narzędziową
+%ADJECTIVE% pistolet
 słońce
 silnik
 stację
-%A% %ADJECTIVE% planetę
+%ADJECTIVE% planetę
 skrzydło medyczne
 %ADJECTIVE% mostek
 %ADJECTIVE% bryg
-%A% %ADJECTIVE% prom
-%A% %ADJECTIVE% laboratorium
+%ADJECTIVE% prom
+%ADJECTIVE% laboratorium
 Nanotrasen
 Syndykat
 Federację Czarodzieji
