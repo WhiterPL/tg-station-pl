@@ -20,7 +20,7 @@
 	var/dispatched = FALSE
 	var/dispatch_type = 0
 	var/bonus_points = 10000
-	var/thanks_msg = "The cargo shuttle should return in five minutes. Have some supply points for your trouble."
+	var/thanks_msg = "Prom dostawczy powinien wrócić za 5 minut. Na wasze konto zostanie przelane trochę kredytów za fatygę."
 	var/loan_type //for logging
 
 /datum/round_event/shuttle_loan/setup()
@@ -30,31 +30,31 @@
 	SSshuttle.shuttle_loan = src
 	switch(dispatch_type)
 		if(HIJACK_SYNDIE)
-			priority_announce("Cargo: The syndicate are trying to infiltrate your station. If you let them hijack your cargo shuttle, you'll save us a headache.","CentCom Counter Intelligence")
+			priority_announce("Syndykat chce zinfiltrować waszą stację. Bylibyśmy wdzięczni, jeśli pozwolilibyście im przechwycić wasz prom dostawczy.","Wydział kontrwywiadu")
 		if(RUSKY_PARTY)
-			priority_announce("Cargo: A group of angry Russians want to have a party. Can you send them your cargo shuttle then make them disappear?","CentCom Russian Outreach Program")
+			priority_announce("Grupa awanturniczych rosjan chce zorganizować imprezę. Czy możemy pożyczyć wasz prom dostawczy?","Wydział przyjaźni polsko-rosyjskiej")
 		if(SPIDER_GIFT)
-			priority_announce("Cargo: The Spider Clan has sent us a mysterious gift. Can we ship it to you to see what's inside?","CentCom Diplomatic Corps")
+			priority_announce("Klan pająków wysłał nam tajemniczy prezent, moglibyśmy go wam przysłać, żebyście zobaczyli, co jest w środku?","Wydział dyplomacji")
 		if(DEPARTMENT_RESUPPLY)
-			priority_announce("Cargo: Seems we've ordered doubles of our department resupply packages this month. Can we send them to you?","CentCom Supply Department")
-			thanks_msg = "The cargo shuttle should return in five minutes."
+			priority_announce("Wygląda na to, że w tym miesiącu zamówiliśmy za dużo zaopatrzenia, czy możemy wam troche wysłać?","Wydział dostaw")
+			thanks_msg = "Prom dostawczy powinien wrócić za 5 minut."
 			bonus_points = 0
 		if(ANTIDOTE_NEEDED)
-			priority_announce("Cargo: Your station has been chosen for an epidemiological research project. Send us your cargo shuttle to receive your research samples.", "CentCom Research Initiatives")
+			priority_announce("Gratulacje! Wasza stacja została wybrana jako przedmiot badań epidemiologicznych, wyślijcie nam swój prom dostawczy, by otrzymać próbki", "Wydział badań")
 		if(PIZZA_DELIVERY)
-			priority_announce("Cargo: It looks like a neighbouring station accidentally delivered their pizza to you instead.", "CentCom Spacepizza Division")
-			thanks_msg = "The cargo shuttle should return in five minutes."
+			priority_announce("Wygląda na to, że sąsiednia stacja przypadkowo zamówiła wam pizze na ich koszt.", "Wydział dostawy pizzy")
+			thanks_msg = "Prom dostawczy powinien wrócić za 5 minut."
 			bonus_points = 0
 		if(ITS_HIP_TO)
-			priority_announce("Cargo: One of our freighters carrying a bee shipment has been attacked by eco-terrorists. Can you clean up the mess for us?", "CentCom Janitorial Division")
+			priority_announce("Jeden z naszych frachtowców przewożących miód został zaatakowany przez eko-terrorystów, czy możecie zająć się tym?", "Wydział sprzątania")
 			bonus_points = 20000 //Toxin bees can be unbeelievably lethal
 		if(MY_GOD_JC)
-			priority_announce("Cargo: We have discovered an active Syndicate bomb near our VIP shuttle's fuel lines. If you feel up to the task, we will pay you for defusing it.", "CentCom Security Division")
-			thanks_msg = "Live explosive ordnance incoming via supply shuttle. Evacuating cargo bay is recommended."
+			priority_announce("Wykryliśmy bombę w statku jednego z naszych VIPów. Jeśli macie odpowiedni sprzęt i wyspecjalizowaną załogę, chętnie wam ją przyślemy do rozbrojenia.", "Wydział ochrony")
+			thanks_msg = "W promie znajduję się bomba, zalecamy ewakuację ładowni."
 			bonus_points = 45000 //If you mess up, people die and the shuttle gets turned into swiss cheese
 
 /datum/round_event/shuttle_loan/proc/loan_shuttle()
-	priority_announce(thanks_msg, "Cargo shuttle commandeered by CentCom.")
+	priority_announce(thanks_msg, "Prom dostawczy przejęty przez centrale.")
 
 	dispatched = TRUE
 	var/datum/bank_account/D = SSeconomy.get_dep_account(ACCOUNT_CAR)
@@ -68,28 +68,28 @@
 
 	switch(dispatch_type)
 		if(HIJACK_SYNDIE)
-			SSshuttle.centcom_message += "Syndicate hijack team incoming."
+			SSshuttle.centcom_message += "Grupa przechwytująca syndykatu w drodze."
 			loan_type = "Syndicate boarding party"
 		if(RUSKY_PARTY)
-			SSshuttle.centcom_message += "Partying Russians incoming."
+			SSshuttle.centcom_message += "Imprezujący rosjanie w drodze."
 			loan_type = "Russian party squad"
 		if(SPIDER_GIFT)
-			SSshuttle.centcom_message += "Spider Clan gift incoming."
+			SSshuttle.centcom_message += "Prezent od klanu pająków w drodze."
 			loan_type = "Shuttle full of spiders"
 		if(DEPARTMENT_RESUPPLY)
-			SSshuttle.centcom_message += "Department resupply incoming."
+			SSshuttle.centcom_message += "Prom z zaopatrzeniem w drodze."
 			loan_type = "Resupply packages"
 		if(ANTIDOTE_NEEDED)
-			SSshuttle.centcom_message += "Virus samples incoming."
+			SSshuttle.centcom_message += "Próbki wirusa w drodze."
 			loan_type = "Virus shuttle"
 		if(PIZZA_DELIVERY)
-			SSshuttle.centcom_message += "Pizza delivery for [station_name()]"
+			SSshuttle.centcom_message += "Pizza zamówiona dla [station_name()]"
 			loan_type = "Pizza delivery"
 		if(ITS_HIP_TO)
-			SSshuttle.centcom_message += "Biohazard cleanup incoming."
+			SSshuttle.centcom_message += "Prom pełny pszczół w drodze."
 			loan_type = "Shuttle full of bees"
 		if(MY_GOD_JC)
-			SSshuttle.centcom_message += "Live explosive ordnance incoming. Exercise extreme caution."
+			SSshuttle.centcom_message += "Ładunki wybuchowe w drodze."
 			loan_type = "Shuttle with a ticking bomb"
 
 	log_game("Shuttle loan event firing with type '[loan_type]'.")

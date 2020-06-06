@@ -8,19 +8,19 @@
 	var/maximum_mice = 15
 
 /datum/round_event/mice_migration/announce(fake)
-	var/cause = pick("space-winter", "budget-cuts", "Ragnarok",
-		"space being cold", "\[REDACTED\]", "climate change",
-		"bad luck")
-	var/plural = pick("a number of", "a horde of", "a pack of", "a swarm of",
-		"a whoop of", "not more than [maximum_mice]")
-	var/name = pick("rodents", "mice", "squeaking things",
-		"wire eating mammals", "\[REDACTED\]", "energy draining parasites")
-	var/movement = pick("migrated", "swarmed", "stampeded", "descended")
-	var/location = pick("maintenance tunnels", "maintenance areas",
-		"\[REDACTED\]", "place with all those juicy wires")
+	var/cause = pick("zima", "cięcia budżetowe", "popiel",
+		"zimny kosmos", "\[ZMIENIONO\]", "zmiana klimatu",
+		"pech")
+	var/plural = pick("trochę", "horda", "zgraja", "rój",
+		"wiele", "nie więcej niż [maximum_mice]")
+	var/name = pick("gryzoni", "myszy", "piszczałek",
+		"ssaków żywiących się kablami", "\[ZMIENIONO\]", "pasożytów żywiących się energią")
+	var/movement = pick("emigrowało", "przybyło", "wtargnęło", "weszło")
+	var/location = pick("tunelów technicznych", "zakrystii",
+		"\[ZMIENIONO\]", "jadłodajni")
 
-	priority_announce("Due to [cause], [plural] [name] have [movement] \
-		into the [location].", "Migration Alert",
+	priority_announce("Przez [cause], [plural] [name] [movement] \
+		do [location].", "Migracja",
 		'sound/effects/mousesqueek.ogg')
 
 /datum/round_event/mice_migration/start()
