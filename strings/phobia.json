@@ -1,35 +1,36 @@
 {
 	"spiders": [
-		"spider",
-		"web",
-		"arachnid"
+		"pająk",
+		"sieć",
+		"sieci",
+		"pająki"
 	],
 
 	"space": [
-		"space",
-		"star",
-		"universe",
-		"void",
-		"galaxy",
-		"spess"
+		"kosmos",
+		"gwiazda",
+		"świat",
+		"pustka",
+		"galaktyka",
+		"przestrzeń"
 	],
 
 	"security": [
 		"sec",
-		"security",
-		"shitcurity",
-		"baton",
-		"taser",
+		"ochrona",
+		"gównochrona",
+		"pałka",
+		"tazer",
 		"beepsky",
 		"hos",
-		"brig",
-		"gulag"
+		"bryg",
+		"gułag"
 	],
 
 	"conspiracies": [
-		"central command",
-		"command",
-		"chain of command",
+		"centrala",
+		"dowództwo",
+		"łańcuch dowodzenia",
 		"heads of staff",
 		"head of security",
 		"hos",
@@ -41,77 +42,77 @@
 		"cmo",
 		"chief engineer",
 		"ce",
-		"captain",
+		"kapitan",
 		"deathsquad",
 		"death squad",
-		"alien",
+		"kosmita",
 		"xeno",
-		"abductor",
+		"porywacz",
 		"ayy",
-		"gray",
-		"grey",
+		"szary",
+		"szarak",
 		"ufo",
-		"big pharma",
-		"government",
+		"koronawirus",
+		"rząd",
 		"steel beam",
 		"jet fuel",
-		"round earth",
-		"chem trail",
+		"okrągła ziemia",
+		"szczepionki",
 		"illuminati",
-		"second shooter",
-		"freemason"
+		"5g",
+		"mason",
+		"masoneria"
 	],
 
 	"clowns": [
-		"clown",
+		"klaun",
 		"honk",
-		"banana",
-		"slip",
-		"slipped",
-		"slipping"
+		"banan",
+		"ślizga",
+		"ślizganie",
+		"ślizgać"
 	],
 
 	"greytide": [
-		"assistant",
-		"grey",
-		"gasmask",
-		"gas mask",
-		"stunprod",
-		"spear",
-		"revolution",
+		"asystent",
+		"szary",
+		"maska gazowa",
+		"paralizator",
+		"włócznia",
+		"rewolucja",
 		"viva"
 	],
 
 	"lizards": [
-		"lizard",
-		"hiss",
-		"hissed",
-		"hissing",
-		"wag",
-		"wagged",
-		"wagging"
+		"jaszczur",
+		"syk",
+		"syczenie",
+		"syczy",
+		"merdać",
+		"merda",
+		"merdanie"
 	],
 
 	"skeletons": [
-		"skeleton",
-		"milk",
-		"xylophone",
-		"bone",
-		"calcium",
-		"the ride never ends",
+		"szkielet",
+		"mleko",
+		"ksylofon",
+		"kość",
+		"wapń",
+		"trąbka",
 		"doot"
 	],
 
 	"snakes": [
-		"snake",
-		"snek",
-		"snecko",
+		"wąż",
 		"boop",
-		"slither",
-		"fangs",
-		"anaconda",
-		"viper",
-		"python"
+		"syk",
+		"syczenie",
+		"syczy",
+		"kły",
+		"anakonda",
+		"żmija",
+		"pyton"
 	],
 
 	"robots": [
