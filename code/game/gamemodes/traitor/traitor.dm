@@ -20,9 +20,9 @@
 	enemy_minimum_age = 0
 
 	announce_span = "danger"
-	announce_text = "There are Syndicate agents on the station!\n\
-	<span class='danger'>Traitors</span>: Accomplish your objectives.\n\
-	<span class='notice'>Crew</span>: Do not let the traitors succeed!"
+	announce_text = "Na stacji są agenci Syndykatu!\n\
+	<span class='danger'>Zdrajcy</span>: Spełnijcie swoje cele.\n\
+	<span class='notice'>Załoga</span>: Powstrzymajcie zdrajców!"
 
 	var/list/datum/mind/pre_traitors = list()
 	var/traitors_possible = 4 //hard limit on traitors if scaling is turned off
