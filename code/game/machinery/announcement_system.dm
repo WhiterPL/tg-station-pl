@@ -2,14 +2,14 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 
 /obj/machinery/announcement_system
 	density = TRUE
-	name = "\improper Automated Announcement System"
-	desc = "An automated announcement system that handles minor announcements over the radio."
+	name = "\improper System Automatycznych Ogłoszeń"
+	desc = "System automatycznych ogłoszeń zajmujący się ogłaszaniem pomniejszycyh komunikatów przez radio."
 	icon = 'icons/obj/machines/telecomms.dmi'
 	icon_state = "AAS_On"
 
-	verb_say = "coldly states"
-	verb_ask = "queries"
-	verb_exclaim = "alarms"
+	verb_say = "zimno stwierdza"
+	verb_ask = "pyta"
+	verb_exclaim = "alarmuje"
 
 	idle_power_usage = 20
 	active_power_usage = 50
@@ -17,9 +17,9 @@ GLOBAL_LIST_EMPTY(announcement_systems)
 	circuit = /obj/item/circuitboard/machine/announcement_system
 
 	var/obj/item/radio/headset/radio
-	var/arrival = "%PERSON has signed up as %RANK"
+	var/arrival = "%PERSON dołączył do załogi jako %RANK"
 	var/arrivalToggle = 1
-	var/newhead = "%PERSON, %RANK, is the department head."
+	var/newhead = "%PERSON, %RANK, jest dyrektorem departamentu."
 	var/newheadToggle = 1
 
 	var/greenlight = "Light_Green"
