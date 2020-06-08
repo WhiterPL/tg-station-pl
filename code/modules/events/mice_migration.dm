@@ -8,8 +8,8 @@
 	var/maximum_mice = 15
 
 /datum/round_event/mice_migration/announce(fake)
-	var/cause = pick("zima", "cięcia budżetowe", "popiel",
-		"zimny kosmos", "\[ZMIENIONO\]", "zmiana klimatu",
+	var/cause = pick("zimę", "cięcia budżetowe", "Popiela",
+		"zimny kosmos", "\[ZMIENIONO\]", "zmiany klimatu",
 		"pech")
 	var/plural = pick("trochę", "horda", "zgraja", "rój",
 		"wiele", "nie więcej niż [maximum_mice]")
