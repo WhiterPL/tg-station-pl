@@ -85,78 +85,78 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 //Departments
 
 /area/maintenance/department/chapel
-	name = "Tunel Techniczny przy Kaplicy"
+	name = "Tunel Techniczny Kaplica"
 	icon_state = "maint_chapel"
 
 /area/maintenance/department/chapel/monastery
-	name = "Tunel Techniczny przy Klasztorze"
+	name = "Tunel Techniczny Klasztor"
 	icon_state = "maint_monastery"
 
 /area/maintenance/department/crew_quarters/bar
-	name = "Tunel Techniczny przy Barze"
+	name = "Tunel Techniczny Bar"
 	icon_state = "maint_bar"
 
 /area/maintenance/department/crew_quarters/dorms
-	name = "Tunel Techniczny przy Sali Sypialnej"
+	name = "Tunel Techniczny Sala Sypialna"
 	icon_state = "maint_dorms"
 
 /area/maintenance/department/eva
-	name = "Tunel Techniczny przy EVA"
+	name = "Tunel Techniczny EVA"
 	icon_state = "maint_eva"
 
 /area/maintenance/department/electrical
-	name = "Tunel Techniczny przy sekcji Energetycznej"
+	name = "Tunel Techniczny Energetyka"
 	icon_state = "maint_electrical"
 
 /area/maintenance/department/engine/atmos
-	name = "Tunel Techniczny przy sekcji Atmosferycznej"
+	name = "Tunel Techniczny Atmosferyka"
 	icon_state = "maint_atmos"
 
 /area/maintenance/department/security
-	name = "Tunel Techniczny przy sekcji Ochrony"
+	name = "Tunel Techniczny Ochrona"
 	icon_state = "maint_sec"
 
 /area/maintenance/department/security/upper
-	name = "Górny Tunel Techniczny przy sekcji Ochrony"
+	name = "Górny Tunel Techniczny Ochrona"
 
 /area/maintenance/department/security/brig
-	name = "Tunel Techniczny przy Brygu"
+	name = "Tunel Techniczny Bryg"
 	icon_state = "maint_brig"
 
 /area/maintenance/department/medical
-	name = "Tunel Techniczny przy sekcji Medycznej"
+	name = "Tunel Techniczny Szpital"
 	icon_state = "medbay_maint"
 
 /area/maintenance/department/medical/central
-	name = "Centralny Tunel Techniczny przy sekcji Medycznej"
+	name = "Centralny Tunel Techniczny Szpital"
 	icon_state = "medbay_maint_central"
 
 /area/maintenance/department/medical/morgue
-	name = "Tunel Techniczny przy Kostnicy"
+	name = "Tunel Techniczny Kostnica"
 	icon_state = "morgue_maint"
 
 /area/maintenance/department/science
-	name = "Tunel Techniczny przy sekcji Naukowej"
+	name = "Tunel Techniczny Wydział Badawczy"
 	icon_state = "maint_sci"
 
 /area/maintenance/department/science/central
-	name = "Centralny Tunel Techniczny przy sekcji Naukowej"
+	name = "Centralny Tunel Techniczny Wydział Badawczy"
 	icon_state = "maint_sci_central"
 
 /area/maintenance/department/cargo
-	name = "Tunel Techniczny przy Ładowni"
+	name = "Tunel Techniczny Ładownia"
 	icon_state = "maint_cargo"
 
 /area/maintenance/department/bridge
-	name = "Tunel Techniczny przy Mostku"
+	name = "Tunel Techniczny Mostek"
 	icon_state = "maint_bridge"
 
 /area/maintenance/department/engine
-	name = "Tunel Techniczny przy sekcji Inżynieryjnej"
+	name = "Tunel Techniczny Inżynieria"
 	icon_state = "maint_engi"
 
 /area/maintenance/department/science/xenobiology
-	name = "Tunel Techniczny przy sekcji Ksenobiologii"
+	name = "Tunel Techniczny Ksenobiologia"
 	icon_state = "xenomaint"
 	xenobiology_compatible = TRUE
 
@@ -164,14 +164,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 //Maintenance - Generic
 
 /area/maintenance/aft
-	name = "Tunel Techniczny na Rufie"
+	name = "Tunel Techniczny Rufa"
 	icon_state = "amaint"
 
 /area/maintenance/aft/upper
-	name = "Górny Tunel Techniczny na Rufie"
+	name = "Górny Tunel Techniczny Rufa"
 
 /area/maintenance/aft/secondary
-	name = "Tunel Techniczny na Rufie"
+	name = "Tunel Techniczny Rufa"
 	icon_state = "amaint_2"
 
 /area/maintenance/central
@@ -183,57 +183,57 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "maintcentral"
 
 /area/maintenance/fore
-	name = "Tunel Techniczny na Dziobie"
+	name = "Tunel Techniczny Dziób"
 	icon_state = "fmaint"
 
 /area/maintenance/fore/upper
-	name = "Górny Tunel Techniczny na Dziobie"
+	name = "Górny Tunel Techniczny DzióbSterburta"
 
 /area/maintenance/fore/secondary
-	name = "Tunel Techniczny na Dziobie"
+	name = "Tunel Techniczny DzióbSterburta"
 	icon_state = "fmaint_2"
 
 /area/maintenance/starboard
-	name = "Tunel Techniczny na Sterburcie"
+	name = "Tunel Techniczny Sterburta"
 	icon_state = "smaint"
 
 /area/maintenance/starboard/upper
-	name = "Górny Tunel Techniczny na Sterburcie"
+	name = "Górny Tunel Techniczny Sterburta"
 
 /area/maintenance/starboard/central
-	name = "Centralny Tunel Techniczny na Sterburcie"
+	name = "Centralny Tunel Techniczny Sterburta"
 	icon_state = "smaint"
 
 /area/maintenance/starboard/secondary
-	name = "Drugorzędny Tunel Techniczny na Sterburcie"
+	name = "Drugorzędny Tunel Techniczny Sterburta"
 	icon_state = "smaint_2"
 
 /area/maintenance/starboard/aft
-	name = "Dolny Tunel Techniczny na Sterburcie"
+	name = "Dolny Tunel Techniczny Sterburta"
 	icon_state = "asmaint"
 
 /area/maintenance/starboard/aft/secondary
-	name = "Drugorzędny Dolny Tunel Techniczny na Sterburcie"
+	name = "Drugorzędny Dolny Tunel Techniczny Sterburta"
 	icon_state = "asmaint_2"
 
 /area/maintenance/starboard/fore
-	name = "Przedni Tunel Techniczny na Sterburcie"
+	name = "Przedni Tunel Techniczny Sterburta"
 	icon_state = "fsmaint"
 
 /area/maintenance/port
-	name = "Tunel Techniczny na Bakburcie"
+	name = "Tunel Techniczny Bakburta"
 	icon_state = "pmaint"
 
 /area/maintenance/port/central
-	name = "Centralny Tunel Techniczny na Bakburcie"
+	name = "Centralny Tunel Techniczny Bakburta"
 	icon_state = "maintcentral"
 
 /area/maintenance/port/aft
-	name = "Górny Tunel Techniczny na Bakburcie"
+	name = "Górny Tunel Techniczny Bakburta"
 	icon_state = "apmaint"
 
 /area/maintenance/port/fore
-	name = "Dolny Tunel Techniczny na Bakburcie"
+	name = "Dolny Tunel Techniczny Bakburta"
 	icon_state = "fpmaint"
 
 /area/maintenance/disposal
@@ -241,7 +241,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "disposal"
 
 /area/maintenance/disposal/incinerator
-	name = "Piec do Spopielania"
+	name = "Krematorium"
 	icon_state = "incinerator"
 
 
@@ -256,11 +256,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "hallF"
 
 /area/hallway/primary/starboard
-	name = "Główny Korytarz na Sterburcie"
+	name = "Główny Korytarz Sterburta"
 	icon_state = "hallS"
 
 /area/hallway/primary/port
-	name = "Główny Korytarz na Bakburcie"
+	name = "Główny Korytarz Bakburta"
 	icon_state = "hallP"
 
 /area/hallway/primary/central
@@ -273,7 +273,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 
 /area/hallway/secondary/command
-	name = "Korytarz przy Dowództwie"
+	name = "Korytarz Dowództwa"
 	icon_state = "bridge_hallway"
 
 /area/hallway/secondary/construction
@@ -281,7 +281,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "construction"
 
 /area/hallway/secondary/exit
-	name = "Korytarz przy Promie Ratunkowym"
+	name = "Korytarz Prom Ratunkowy"
 	icon_state = "escape"
 
 /area/hallway/secondary/exit/departure_lounge
@@ -289,11 +289,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "escape_lounge"
 
 /area/hallway/secondary/entry
-	name = "Korytarz przy Hali Przylotów"
+	name = "Korytarz Hala Przylotów"
 	icon_state = "entry"
 
 /area/hallway/secondary/service
-	name = "Korytarz przy Usługach"
+	name = "Korytarz Usług"
 	icon_state = "hall_service"
 
 //Command
@@ -348,7 +348,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "tcomsatcham"
 
 /area/server
-	name = "Serwerownia Wiadmości"
+	name = "Serwerownia Systemu Wiadmości"
 	icon_state = "server"
 
 //Crew
@@ -362,15 +362,15 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	name = "Sypialnie"
 
 /area/crew_quarters/dorms/barracks/male
-	name = "Męskie Sypialnie"
+	name = "Sypialnie Męskie"
 	icon_state = "dorms_male"
 
 /area/crew_quarters/dorms/barracks/female
-	name = "Damskie Sypialnie"
+	name = "Sypialnie Damskie"
 	icon_state = "dorms_female"
 
 /area/crew_quarters/toilet
-	name = "Toaleta Sali Sypialnej"
+	name = "Sala Sypialna Toaleta"
 	icon_state = "toilet"
 
 /area/crew_quarters/toilet/auxiliary
@@ -378,7 +378,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "toilet"
 
 /area/crew_quarters/toilet/locker
-	name = "Toaleta Szatni"
+	name = "Szatnia Toaleta"
 	icon_state = "toilet"
 
 /area/crew_quarters/toilet/restrooms
@@ -402,11 +402,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "locker"
 
 /area/crew_quarters/fitness/locker_room/male
-	name = "Męska Szatnia"
+	name = "Szatnia Męska"
 	icon_state = "locker_male"
 
 /area/crew_quarters/fitness/locker_room/female
-	name = "Damska Szatnia"
+	name = "Szatnia Damska"
 	icon_state = "locker_female"
 
 
@@ -423,7 +423,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "kitchen"
 
 /area/crew_quarters/kitchen/coldroom
-	name = "Chłodnia Kuchni"
+	name = "Kuchnia Chłodnia"
 	icon_state = "kitchen_cold"
 
 /area/crew_quarters/bar
@@ -437,7 +437,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "bar"
 
 /area/crew_quarters/electronic_marketing_den
-	name = "Market części Elektronicznych"
+	name = "Market Części Elektronicznych"
 	icon_state = "abandoned_m_den"
 
 /area/crew_quarters/abandoned_gambling_den
@@ -461,7 +461,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	flags_1 = CULT_PERMITTED_1
 
 /area/library/lounge
-	name = "Hol Biblioteki"
+	name = "Biblioteka Hol"
 	icon_state = "library_lounge"
 
 /area/library/artgallery
@@ -469,15 +469,15 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "library_gallery"
 
 /area/library/private
-	name = "Czytelnia Biblioteki"
+	name = "Biblioteka Czytalnia"
 	icon_state = "library_gallery_private"
 
 /area/library/upper
-	name = "Górne Piętro Biblioteki"
+	name = "Biblioteka Górne Piętro"
 	icon_state = "library"
 
 /area/library/printer
-	name = "Drukarnia Biblioteki"
+	name = "Biblioteka Drukarnia"
 	icon_state = "library"
 
 /area/library/abandoned
@@ -522,23 +522,23 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	ambientsounds = ENGINEERING
 
 /area/engine/engine_smes
-	name = "SMES sekcji Inżynieryjnej"
+	name = "Inżynieria SMES"
 	icon_state = "engine_smes"
 
 /area/engine/engineering
-	name = "sekcja Inżynieryjna"
+	name = "Inżynieria"
 	icon_state = "engine"
 
 /area/engine/atmos
-	name = "sekcja Atmosferyczna"
+	name = "Atmosferyka"
 	icon_state = "atmos"
 	flags_1 = CULT_PERMITTED_1
 
 /area/engine/atmos/upper
-	name = "Górna sekcja Atmosferyczna"
+	name = "Górna Atmosferyka"
 
 /area/engine/atmospherics_engine
-	name = "Silnik sekcji Atmosferycznej"
+	name = "Atmosferyka Silnik"
 	icon_state = "atmos_engine"
 	valid_territory = FALSE
 
@@ -547,11 +547,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "atmos_engine"
 
 /area/engine/lobby
-	name = "Hol sekcji Inżynieryjnej"
+	name = "Inżynieria Hol"
 	icon_state = "engi_lobby"
 
 /area/engine/engine_room/external
-	name = "Zewnętrzny Dostęp Supermaterii"
+	name = "Supermateria Zewnętrzny Dostęp"
 	icon_state = "engine_foyer"
 
 /area/engine/supermatter
@@ -560,7 +560,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	valid_territory = FALSE
 
 /area/engine/break_room
-	name = "Hall sekcji Iżynieryjnej"
+	name = "Inżynieria Hall"
 	icon_state = "engine_break"
 
 /area/engine/gravity_generator
@@ -568,15 +568,15 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "grav_gen"
 
 /area/engine/storage
-	name = "Magazyn sekcji Inżynieryjnej"
+	name = "Inżynieria Magazyn"
 	icon_state = "engi_storage"
 
 /area/engine/storage_shared
-	name = "Współdzielony Magazyn sekcji Inżynieryjnej"
+	name = "Inżynieria Współdzielony Magazyn"
 	icon_state = "engi_storage"
 
 /area/engine/transit_tube
-	name = "Tuba Dostawcza"
+	name = "Tuba Przesyłowa"
 	icon_state = "transit_tube"
 
 
@@ -599,69 +599,69 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "yellow"
 
 /area/solar/aux/port
-	name = "Górne Dodatkowe Panele Słoneczne na Bakburcie"
+	name = "Górne Dodatkowe Panele Słoneczne Bakburta"
 	icon_state = "panelsA"
 
 /area/solar/aux/starboard
-	name = "Górne Dodatkowe Panele Słoneczne na Sterburcie"
+	name = "Górne Dodatkowe Panele Słoneczne Sterburta"
 	icon_state = "panelsA"
 
 /area/solar/starboard
-	name = "Panele Słoneczne na Sterburcie"
+	name = "Panele Słoneczne Sterburta"
 	icon_state = "panelsS"
 
 /area/solar/starboard/aft
-	name = "Dolne Panele Słoneczne na Sterburcie"
+	name = "Dolne Panele Słoneczne Sterburta"
 	icon_state = "panelsAS"
 
 /area/solar/starboard/fore
-	name = "Górne Panele Słoneczne na Sterburcie"
+	name = "Górne Panele Słoneczne Sterburta"
 	icon_state = "panelsFS"
 
 /area/solar/port
-	name = "Panele Słoneczne na Bakburcie"
+	name = "Panele Słoneczne Bakburta"
 	icon_state = "panelsP"
 
 /area/solar/port/aft
-	name = "Dolne Panele Słoneczne na Bakburcie"
+	name = "Dolne Panele Słoneczne Bakburta"
 	icon_state = "panelsAP"
 
 /area/solar/port/fore
-	name = "Górne Panele Słoneczne na Bakburcie"
+	name = "Górne Panele Słoneczne Bakburta"
 	icon_state = "panelsFP"
 
 /area/solar/aisat
-	name = "Panele Słoneczne przy satelicie AI"
+	name = "Panele Słoneczne Satelita AI"
 	icon_state = "yellow"
 
 //Solar Maint
 
 /area/maintenance/solars
-	name = "Tunel Techniczny Paneli Słonecznych"
+	name = "Tunel Techniczny Panele Słoneczne"
 	icon_state = "yellow"
 
 /area/maintenance/solars/port
-	name = "Tunel Techniczny Paneli Słonecznych na Bakburcie"
+	name = "Tunel Techniczny Panele Słoneczne Bakburta"
 	icon_state = "SolarcontrolP"
 
 /area/maintenance/solars/port/aft
-	name = "Dolny Tunel Techniczny Paneli Słonecznych na Bakburcie"
+	name = "Dolny Tunel Techniczny Panele Słoneczne Bakburta"
 	icon_state = "SolarcontrolAP"
 
 /area/maintenance/solars/port/fore
-	name = "Górny Tunel Techniczny Paneli Słonecznych na Bakburcie"
+	name = "Górny Tunel Techniczny Panele Słoneczne Bakburta"
 	icon_state = "SolarcontrolFP"
 
 /area/maintenance/solars/starboard
-	name = "Tunel Techniczny Paneli Słonecznych na Sterburcie"
+	name = "Tunel Techniczny Panele Słoneczne Sterburta"
 	icon_state = "SolarcontrolS"
 
 /area/maintenance/solars/starboard/aft
-	name = "Dolny Tunel Techniczny Paneli Słonecznych na Sterburcie"
+	name = "Dolny Tunel Techniczny Panele Słoneczne Sterburta"
 	icon_state = "SolarcontrolAS"
 
 /area/maintenance/solars/starboard/fore
-	name = "Górny Tunel Techniczny Paneli Słonecznych na Sterburcie"
+	name = "Górny Tunel Techniczny Panele Słoneczne Sterburta"
 	icon_state = "SolarcontrolFS"
 
 //Teleporter
@@ -679,39 +679,39 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 //MedBay
 
 /area/medical
-	name = "sekcja Medyczna"
+	name = "Szpital"
 	icon_state = "medbay1"
 	ambientsounds = MEDICAL
 
 /area/medical/abandoned
-	name = "Opuszczona sekcja Medyczna"
+	name = "Opuszczony Szpital"
 	icon_state = "abandoned_medbay"
 	ambientsounds = list('sound/ambience/signal.ogg')
 
 /area/medical/medbay/central
-	name = "Główna sekcja Medyczna"
+	name = "Szpital Głowny"
 	icon_state = "med_central"
 
 /area/medical/medbay/lobby
-	name = "Hol sekcji Medycznej"
+	name = "Szpital Hol"
 	icon_state = "med_lobby"
 
 	//Medbay is a large area, these additional areas help level out APC load.
 
 /area/medical/medbay/zone2
-	name = "sekcja Medyczna"
+	name = "Szpital"
 	icon_state = "medbay2"
 
 /area/medical/medbay/aft
-	name = "Górna sekcja Medyczna"
+	name = "Szpital Górny"
 	icon_state = "med_aft"
 
 /area/medical/storage
-	name = "Magazyn sekcji Medycznej"
+	name = "Szpital Magazyn"
 	icon_state = "med_storage"
 
 /area/medical/paramedic
-	name = "Ambulatorium"
+	name = "Pomieszczenie Ratowników Medycznych"
 	icon_state = "paramedic"
 
 /area/medical/office
@@ -727,11 +727,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "surgery"
 
 /area/medical/break_room
-	name = "Pokój Socjalny sekcji Medycznej"
+	name = "Szpital Pokój Socjalny"
 	icon_state = "med_break"
 
 /area/medical/coldroom
-	name = "Chłodnia sekcji Medycznej"
+	name = "Szpital Chłodnia"
 	icon_state = "kitchen_cold"
 
 /area/medical/patients_rooms
@@ -747,7 +747,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "patients"
 
 /area/medical/virology
-	name = "sekcja Virologii"
+	name = "Wirologia"
 	icon_state = "virology"
 	flags_1 = CULT_PERMITTED_1
 
@@ -757,15 +757,15 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	ambientsounds = SPOOKY
 
 /area/medical/chemistry
-	name = "sekcja Chemiczna"
+	name = "Chemia"
 	icon_state = "chem"
 
 /area/medical/pharmacy
-	name = "sekcja Farmaceutyczna"
+	name = "Farmaceutyka"
 	icon_state = "pharmacy"
 
 /area/medical/surgery
-	name = "sekcja Operacyjna"
+	name = "Chirurgia"
 	icon_state = "surgery"
 
 /area/medical/surgery/room_b
@@ -773,7 +773,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "surgery"
 
 /area/medical/cryo
-	name = "sekcja Kriogeniki"
+	name = "Kriogenika"
 	icon_state = "cryo"
 
 /area/medical/exam_room
@@ -798,7 +798,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 //Security
 
 /area/security
-	name = "sekcja Ochrony"
+	name = "Ochrona"
 	icon_state = "security"
 	ambientsounds = HIGHSEC
 
@@ -822,7 +822,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "sec_prison"
 
 /area/security/prison/toilet //radproof
-	name = "Toaleta Więzienia"
+	name = "Więzienie Toaleta"
 	icon_state = "sec_prison_safe"
 
 /area/security/prison/safe //radproof
@@ -842,31 +842,31 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "prison_rec"
 
 /area/security/prison/mess
-	name = "Hol Więzienny"
+	name = "Więzienie Hol"
 	icon_state = "prison_mess"
 
 /area/security/prison/work
-	name = "Warsztat Więzienny"
+	name = "Więzienie Warsztat"
 	icon_state = "prison_work"
 
 /area/security/prison/shower
-	name = "Prysznic Więzienny"
+	name = "Więzienie Prysznic"
 	icon_state = "prison_shower"
 
 /area/security/prison/workout
-	name = "Siłownia Więzienna"
+	name = "Więzienie Siłownia"
 	icon_state = "prison_workout"
 
 /area/security/prison/garden
-	name = "Ogród Więzienny"
+	name = "Więzienie Ogród"
 	icon_state = "prison_garden"
 
 /area/security/processing
-	name = "Prom do Kolonii Karnej"
+	name = "Prom Kolonia Karna"
 	icon_state = "sec_processing"
 
 /area/security/processing/cremation
-	name = "Krematorium sekcji Ochrony"
+	name = "Ochrona Krematorium"
 	icon_state = "sec_cremation"
 
 /area/security/warden
@@ -919,19 +919,19 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "checkpoint_supp"
 
 /area/security/checkpoint/engineering
-	name = "Posterunek Ochrony - sekcja Inżynieryjna"
+	name = "Posterunek Ochrony - Inżynieria"
 	icon_state = "checkpoint_engi"
 
 /area/security/checkpoint/medical
-	name = "Posterunek Ochrony - sekcja Medyczna"
+	name = "Posterunek Ochrony - Szpital"
 	icon_state = "checkpoint_med"
 
 /area/security/checkpoint/science
-	name = "Posterunek Ochrony - sekcja Naukowa"
+	name = "Posterunek Ochrony - Wydział Naukowy"
 	icon_state = "checkpoint_sci"
 
 /area/security/checkpoint/science/research
-	name = "Posterunek Ochrony - Dywizja Naukowa"
+	name = "Posterunek Ochrony - Wydział Naukowy"
 	icon_state = "checkpoint_res"
 
 /area/security/checkpoint/customs
@@ -972,7 +972,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "quart_office"
 
 /area/quartermaster/qm/perch
-	name = "Quartermaster's Perch"
+	name = "Punkt Obserwacyjny Kwatermistrza"
 	icon_state = "quart_perch"
 
 /area/quartermaster/miningdock
@@ -1012,15 +1012,15 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 //Science
 
 /area/science
-	name = "sekcja Naukowa"
+	name = "Wydział Badawczy"
 	icon_state = "science"
 
 /area/science/lab
-	name = "sekcja Badań i Rozwoju"
+	name = "Badania i Rozwój"
 	icon_state = "research"
 
 /area/science/xenobiology
-	name = "Laboratorium Ksenobiologiczne"
+	name = "Laboratorium Ksenobiologii"
 	icon_state = "xenobio"
 
 /area/science/storage
@@ -1054,7 +1054,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "tox_range"
 
 /area/science/server
-	name = "Serwerownia sekcji Naukowej"
+	name = "Serwerownia Wydziału Badawczego"
 	icon_state = "server"
 
 /area/science/explab
@@ -1062,7 +1062,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "exp_lab"
 
 /area/science/robotics
-	name = "sekcji Robotyki"
+	name = "Robotyka"
 	icon_state = "robotics"
 
 /area/science/robotics/mechbay
@@ -1070,11 +1070,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "mechbay"
 
 /area/science/robotics/lab
-	name = "Laboratorium Robotyczne"
+	name = "Laboratorium Robotyki"
 	icon_state = "ass_line"
 
 /area/science/research
-	name = "sekcja Badawcza"
+	name = "Wydział Badawczy"
 	icon_state = "science"
 
 /area/science/research/abandoned
@@ -1100,7 +1100,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "art_storage"
 
 /area/storage/tcom
-	name = "Skład urządzeń Telekomunikacyjnych"
+	name = "Skład Urządzeń Telekomunikacyjnych"
 	icon_state = "tcom"
 	valid_territory = FALSE
 
@@ -1109,11 +1109,11 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "eva"
 
 /area/storage/emergency/starboard
-	name = "Skład Ratunkowy na Sterburcie"
+	name = "Skład Ratunkowy Sterburta"
 	icon_state = "emergency_storage"
 
 /area/storage/emergency/port
-	name = "Skład Ratunkowy na Bakburcie"
+	name = "Skład Ratunkowy Bakburta"
 	icon_state = "emergency_storage"
 
 /area/storage/tech
@@ -1132,7 +1132,7 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	ambientsounds = ENGINEERING
 
 /area/construction/mining/aux_base
-	name = "Budowa Dodaykowej Bazy"
+	name = "Strefa Budowlana Bazy Dodatkowej"
 	icon_state = "aux_base_construction"
 
 /area/construction/storage_wing
@@ -1198,35 +1198,35 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 	icon_state = "ai"
 
 /area/ai_monitored/turret_protected/aisat/atmos
-	name = "sekcja Atmosferyczna Satelity AI"
+	name = "Satelita AI Atmosferyka"
 	icon_state = "ai"
 
 /area/ai_monitored/turret_protected/aisat/foyer
-	name = "Hol Satelity AI"
+	name = "Satelita AI Hol"
 	icon_state = "ai_foyer"
 
 /area/ai_monitored/turret_protected/aisat/service
-	name = "Usługi Satelity AI"
+	name = "Satelita AI Serwis"
 	icon_state = "ai"
 
 /area/ai_monitored/turret_protected/aisat/hallway
-	name = "Korytarz Satelity AI"
+	name = "Satelita AI Korytarz"
 	icon_state = "ai"
 
 /area/aisat
-	name = "Powłoka Satelity AI"
+	name = "Satelita AI Powłoka"
 	icon_state = "ai"
 
 /area/ai_monitored/turret_protected/aisat_interior
-	name = "Wejście do Satelity AI"
+	name = "Satelita AI Wejście"
 	icon_state = "ai_interior"
 
 /area/ai_monitored/turret_protected/AIsatextAS
-	name = "Wyjście z Satelity AI"
+	name = "Satelita AI Wyjście"
 	icon_state = "ai_sat_east"
 
 /area/ai_monitored/turret_protected/AIsatextAP
-	name = "Wyjście z Satelity AI"
+	name = "Satelita AI Wyjście"
 	icon_state = "ai_sat_west"
 
 
@@ -1249,14 +1249,14 @@ NOTE: there are two lists of areas in the end of this file: centcom and station 
 
 //External Hull Access
 /area/maintenance/external
-	name = "Śluza do Zewnętrznej Powłoki"
+	name = "Śluza Zewnętrznej Powłoki"
 	icon_state = "amaint"
 
 /area/maintenance/external/aft
-	name = "Dolna Śluza do Zewnętrznej Powłoki"
+	name = "Dolna Śluza Zewnętrznej Powłoki"
 
 /area/maintenance/external/port
-	name = "Śluza do Zewnętrznej Powłoki na Bakburcie"
+	name = "Śluza Zewnętrznej Powłoki Bakburta"
 
 /area/maintenance/external/port/bow
-	name = "Górna Śluza do Zewnętrznej Powłoki na Bakburcie"
+	name = "Górna Śluza Zewnętrznej Powłoki Bakburta"
