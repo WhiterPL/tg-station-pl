@@ -94,3 +94,14 @@
 	)
 	result = /obj/item/reagent_containers/food/snacks/salad/citrusdelight
 	subcategory = CAT_SALAD
+
+/datum/crafting_recipe/food/bigos
+	name = "Bigos"
+	reqs = list(
+		/obj/item/reagent_containers/glass/bowl = 1,
+		/obj/item/reagent_containers/food/snacks/grown/cabbage = 2,
+		/obj/item/reagent_containers/food/snacks/meat/cutlet = 2
+
+	)
+	result = /obj/item/reagent_containers/food/snacks/salad/bigos
+	subcategory = CAT_SALAD

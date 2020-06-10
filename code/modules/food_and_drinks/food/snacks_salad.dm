@@ -129,3 +129,13 @@
 	tastes = list("rice" = 1, "egg" = 1)
 	foodtype = GRAIN | MEAT //EGG = MEAT -NinjaNomNom 2017
 	value = FOOD_RARE		//No that's wrong ninja what the hell ~ArcaneMusic 2k20
+
+/obj/item/reagent_containers/food/snacks/salad/bigos
+	name = "bigos"
+	desc = "Miska bigosu."
+	icon_state = "mysterysoup" //przydałby się jakiś ładny sprite bigosu
+	bonus_reagents = list(/datum/reagent/consumable/nutriment = 1)
+	list_reagents = list(/datum/reagent/consumable/nutriment = 14)
+	tastes = list("kapusta" = 1, "mięso" = 1)
+	foodtype = MEAT
+	value = FOOD_JUNK
